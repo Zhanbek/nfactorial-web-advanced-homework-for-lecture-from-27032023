@@ -1,6 +1,7 @@
 .row {
-    margin-bottom: 30px;
-    height: 80px;    
+    margin-bottom: 20px;
+    height: 50px;    
+    width: 1500px;
 }
 
 .grid {
@@ -24,7 +25,7 @@
 }
 
 .row-2 {
-    grid-template-columns: 96% 4%;    
+    grid-template-columns: 1430px 70px;    
 }
 
 .row-2-1 {
@@ -36,7 +37,7 @@
 }
 
 .row-3 {
-    grid-template-columns: 3% 93% 4%;    
+    grid-template-columns: 70px 1360px 70px;    
 }
 
 .row-3-1 {
@@ -52,7 +53,7 @@
 }
 
 .row-4 {
-    grid-template-columns: 96% 4%;    
+    grid-template-columns:  1430px 70px;    
 }
 
 .row-4-1 {
@@ -72,8 +73,8 @@
 
 .row-5-1 {  
     background-color: red;   
-    width: 53px;
-    height: 53px; 
+    width: 30px;
+    height: 30px; 
     z-index: 0;
     position: absolute;
 }
