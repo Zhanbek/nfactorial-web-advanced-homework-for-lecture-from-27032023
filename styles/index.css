@@ -1,6 +1,6 @@
 .row {
     margin-bottom: 20px;
-    height: 50px;    
+    height: 51px;    
     width: 1500px;
 }
 
@@ -78,3 +78,42 @@
     z-index: 0;
     position: absolute;
 }
+
+.row-6 {
+    grid-template-columns: 720px 65px 715px;    
+}
+
+.row-6-1 {
+    background-color: red;    
+}
+
+.row-6-2 {
+    background-color: blue;  
+}
+
+.row-6-3 {
+    background-color: red; 
+}
+
+.row-7 {    
+    grid-template-columns: 70px 1430px;    
+}
+
+.row-7-1 {
+    background-color: red;    
+}
+
+.row-7-2 {
+    flex-direction: column;     
+}
+
+.row-7-2-blue {
+    background-color: blue;    
+    height: 17px;
+}
+
+.row-7-2-green {
+    background-color: green;
+    height: 17px;
+}
+
